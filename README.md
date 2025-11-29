@@ -63,6 +63,17 @@
 ### Internet Gateway
 ![igw](diagram/Net-IGW.png)
 
+### 🌐 Internet Gateway Setup (My-IGW)
+
+1. Go to **VPC → Internet Gateways → Create Internet Gateway**.
+2. Enter:
+   - Name: **My-IGW**
+3. Click **Create Internet Gateway**.
+4. Select the IGW → Click **Actions → Attach to VPC**.
+5. Choose **My-VPC**.
+6. Confirm IGW state = **Attached**.
+
+
 ### EC2 Instance
 ![ec2](diagram/ec2.PNG)
 
