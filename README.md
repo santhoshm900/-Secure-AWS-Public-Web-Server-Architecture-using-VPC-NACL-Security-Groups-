@@ -23,5 +23,3 @@
 
 ### Nginx Installed ADMIN 
 ![nginx](diagram/nginx%20installed.PNG)
-### CLAINT ACCESS HTTP 80 IN NGINX
-![nginx](diagram/ CLAINT ACCESS HTTP 80 IN NGINX.PNG)
