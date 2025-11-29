@@ -15,7 +15,7 @@
 ---
 
 ## 🖼️ Main Architecture Diagram
-![main-architecture](diagram/vpc.png)
+![main-architecture](diagram/ARCITECHTURE.png)
 
 ---
 
