@@ -39,6 +39,27 @@
 ### Route Table
 ![route-table](diagram/Route%20Table.PNG)
 
+### 🛣️ Route Table Setup (Public-RT)
+
+1. Go to **VPC → Route Tables → Create Route Table**.
+2. Enter:
+   - Name: Public-RT
+   - VPC: My-VPC
+3. Click **Create Route Table**.
+
+#### Add Internet Route
+4. Open Public-RT → Go to **Routes**.
+5. Click **Edit Routes → Add Route**.
+   - Destination: **0.0.0.0/0**
+   - Target: **Internet Gateway (My-IGW)**
+6. Save the route.
+
+#### Associate Subnet
+7. Go to **Subnet Associations → Edit**.
+8. Select **Public-Subnet**.
+9. Save changes.
+
+
 ### Internet Gateway
 ![igw](diagram/Net-IGW.png)
 
