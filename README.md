@@ -1,4 +1,7 @@
 # Secure AWS Public Web Server Architecture using VPC, NACL & Security Groups
+![architecture](diagram/ARCITECHTURE.png)
+
+
 
 
 ### VPC Details
