@@ -21,5 +21,5 @@
 ### NACL Rules
 ![nacl](diagram/NACL%20INBOUND%20RULES.PNG)
 
-### Nginx Installed
+### Nginx Installed ADMIN 
 ![nginx](diagram/nginx%20installed.PNG)
