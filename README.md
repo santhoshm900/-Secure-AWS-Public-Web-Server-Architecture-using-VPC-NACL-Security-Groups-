@@ -7,6 +7,19 @@
 ### VPC Details
 ![architecture](diagram/vpc.png)
 
+### 🟩 VPC Creation (10.0.0.0/16)
+
+1. Open AWS Console → Search **VPC**.
+2. Click **Create VPC**.
+3. Choose **VPC Only** option.
+4. Enter:
+   - Name: My-VPC
+   - IPv4 CIDR: 10.0.0.0/16
+   - Tenancy: Default
+5. Click **Create VPC**.
+6. Verify VPC is created with correct CIDR.
+
+
 ### Subnet Details
 ![subnet](diagram/subnet.png)
 
