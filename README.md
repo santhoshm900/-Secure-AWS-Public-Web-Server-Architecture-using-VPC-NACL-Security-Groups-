@@ -23,3 +23,8 @@
 
 ### Nginx Installed ADMIN 
 ![nginx](diagram/nginx%20installed.PNG)
+### Client IP Details
+![client-ip](diagram/CLAINT%20IP.jpeg)
+
+### Client Access HTTP 80 in NGINX
+![client-access](diagram/CLAINT%20ACCESS%20HTTP%2080%20IN%20NGINX.jpeg)
