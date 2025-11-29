@@ -109,8 +109,8 @@
 
 ---
 
-## 🔐 Security Group Setup (WebServer-SG)
-![sg](diagram/nginx%20installed.PNG)
+
+
 
 1. Go to **EC2 → Security Groups → Create Security Group**.
 2. Enter:
@@ -157,3 +157,41 @@ sudo amazon-linux-extras enable nginx1
 sudo yum install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
+```md
+---
+
+## 🧪 Client Testing (Browser & SSH)
+
+### 🔹 Step 1: Copy EC2 Public IP
+1. Go to **EC2 → Instances**.
+2. Select your instance.
+3. Copy the **Public IPv4 address**.
+
+---
+
+### 🔹 Step 2: Test HTTP (Port 80) in Browser
+1. Open Chrome / Edge / Firefox.
+2. Enter your EC2 public IP:
+
+3. Expected Result:
+- **NGINX Default Welcome Page** should load.
+- This confirms:
+  - IGW → Working  
+  - Route Table → Working  
+  - NACL inbound 80 → Allowed  
+  - SG inbound 80 → Allowed  
+  - EC2 → Running OK  
+
+---
+
+If SSH works → Security Group + NACL SSH rules correct.
+
+---
+
+### 🔹 Screenshot: Client HTTP Test  
+![client-access](diagram/CLAINT%20ACCESS%2080%20IN%20NGINX.jpeg)
+
+### 🔹 Screenshot: Client IP  
+![client-ip](diagram/CLAINT%20IP.jpeg)
+
+
