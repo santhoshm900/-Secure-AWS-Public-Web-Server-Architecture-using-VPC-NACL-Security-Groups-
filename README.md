@@ -23,6 +23,19 @@
 ### Subnet Details
 ![subnet](diagram/subnet.png)
 
+### 🟦 Subnet Creation (10.0.0.0/24)
+
+1. Go to **VPC → Subnets → Create Subnet**.
+2. Select your VPC: **My-VPC**.
+3. Enter:
+   - Name: Public-Subnet
+   - Availability Zone: ap-south-1a (optional)
+   - IPv4 CIDR block: 10.0.0.0/24
+4. Click **Create Subnet**.
+5. Select the subnet → Click **Actions → Edit subnet settings**.
+6. Enable **Auto-assign Public IPv4**.
+
+
 ### Route Table
 ![route-table](diagram/Route%20Table.PNG)
 
